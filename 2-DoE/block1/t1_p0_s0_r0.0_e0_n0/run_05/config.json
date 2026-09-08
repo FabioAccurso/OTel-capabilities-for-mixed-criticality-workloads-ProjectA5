@@ -1,0 +1,25 @@
+{
+  "tasks": {
+    "HI_task": {
+      "policy": "SCHED_FIFO",
+      "priority": 90,
+      "cpus": [
+        2
+      ],
+      "loop": -1,
+      "run": 2000,
+      "timer": {
+        "ref": "unique",
+        "period": 10000,
+        "mode": "absolute"
+      }
+    }
+  },
+  "global": {
+    "duration": 20,
+    "default_policy": "SCHED_OTHER",
+    "calibration": 29,
+    "logdir": "/home/benny/Scrivania/OTel-capabilities-for-mixed-criticality-workloads/2-DoE/block1/t1_p0_s0_r0.0_e0_n0/run_05",
+    "log_basename": "rtapp"
+  }
+}

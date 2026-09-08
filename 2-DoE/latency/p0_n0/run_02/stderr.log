@@ -1,0 +1,6 @@
+[rt-app] <notice> pLoad = 29ns
+[rt-app] <notice> thread_data_set_unique_name 0 HI_task-0
+[rt-app] <notice> [0] starting thread ...
+
+[rt-app] <notice> [0] Starting with SCHED_FIFO policy with priority 90
+[rt-app] <notice> [0] Locking pages in memory

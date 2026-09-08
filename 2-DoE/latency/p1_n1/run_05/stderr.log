@@ -1,0 +1,13 @@
+[rt-app] <notice> pLoad = 29ns
+[rt-app] <notice> thread_data_set_unique_name 0 HI_task-0
+[rt-app] <notice> thread_data_set_unique_name 1 LO_noise-1
+[rt-app] <notice> [0] starting thread ...
+
+[rt-app] <notice> [0] Starting with SCHED_FIFO policy with priority 90
+[rt-app] <notice> [0] Locking pages in memory
+[rt-app] <notice> [1] starting thread ...
+
+[rt-app] <notice> [1] Starting with SCHED_OTHER policy with priority 0
+[rt-app] <notice> [1] Exiting.
+terminate called without an active exception
+./scripts/measurements/run_latency.sh: riga 23: 235447 Annullato               sudo -A "$@"

@@ -1,0 +1,1 @@
+probe in ascolto su 127.0.0.1:9412 -> /home/benny/Scrivania/OTel-capabilities-for-mixed-criticality-workloads/2-DoE/latency/p0_n0/run_02/spans.tsv

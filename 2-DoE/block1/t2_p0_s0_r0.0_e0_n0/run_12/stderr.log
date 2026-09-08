@@ -1,0 +1,9 @@
+[rt-app] <notice> pLoad = 29ns
+[rt-app] <notice> thread_data_set_unique_name 0 HI_task-0
+[rt-app] <notice> [0] starting thread ...
+
+[rt-app] <notice> [0] Starting with SCHED_FIFO policy with priority 90
+[rt-app] <notice> [0] Locking pages in memory
+[Error] File: /tmp/claude-1000/-home-benny-Scrivania-OTel-capabilities-for-mixed-criticality-workloads/d224c3b7-803f-4c7c-91f8-4af1e7bb3c3d/scratchpad/opentelemetry-cpp/exporters/zipkin/src/zipkin_exporter.cc:111 ZIPKIN EXPORTER] Zipkin Exporter: Connection failed
+[Error] File: /tmp/claude-1000/-home-benny-Scrivania-OTel-capabilities-for-mixed-criticality-workloads/d224c3b7-803f-4c7c-91f8-4af1e7bb3c3d/scratchpad/opentelemetry-cpp/exporters/zipkin/src/zipkin_exporter.cc:111 ZIPKIN EXPORTER] Zipkin Exporter: Connection failed
+[Error] File: /tmp/claude-1000/-home-benny-Scrivania-OTel-capabilities-for-mixed-criticality-workloads/d224c3b7-803f-4c7c-91f8-4af1e7bb3c3d/scratchpad/opentelemetry-cpp/exporters/zipkin/src/zipkin_exporter.cc:111 ZIPKIN EXPORTER] Zipkin Exporter: Connection failed

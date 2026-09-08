@@ -1,0 +1,53 @@
+# --- Build output di rt-app (autotools) -------------------------------------
+# Rigenerabili con: ./autogen.sh && ./configure && make CPPFLAGS="-DRTAPP_..."
+*.o
+*.lo
+*.la
+.deps/
+.libs/
+rt-app/src/rt-app
+rt-app/libdl/*.a
+rt-app/autom4te.cache/
+rt-app/aclocal.m4
+rt-app/configure
+rt-app/config.status
+rt-app/config.log
+rt-app/config.h
+rt-app/config.h.in
+rt-app/stamp-h1
+rt-app/src/config.h
+rt-app/src/config.h.in
+rt-app/src/stamp-h1
+rt-app/libtool
+rt-app/ltmain.sh
+rt-app/compile
+rt-app/depcomp
+rt-app/install-sh
+rt-app/missing
+rt-app/test-driver
+rt-app/m4/
+Makefile
+Makefile.in
+# README e' generato da README.in e incorpora `git describe`: cambierebbe a ogni
+# commit. COPYING resta tracciato perche' e' stabile (il testo della licenza).
+rt-app/README
+
+# backup di autoheader/autoconf
+*~
+
+# --- Cache dei binari compilati per combinazione di macro --------------------
+# Rigenerabili: make CPPFLAGS="-DRTAPP_TRACE_LEVEL=N -DRTAPP_SAMPLER_TYPE=M"
+bin/
+
+# --- Build+install locale di opentelemetry-cpp ------------------------------
+otel-installdir/
+
+# --- Backup temporanei ------------------------------------------------------
+*.bak-*
+
+# backup automatico creato da run_doe.sh alla migrazione dello schema del data_table
+*.pre-aperf.bak
+*.pre-exitcode.bak
+__pycache__/
+*.pyc
+
