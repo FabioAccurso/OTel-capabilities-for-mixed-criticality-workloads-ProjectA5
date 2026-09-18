@@ -147,6 +147,3 @@ Dati completi per-run e aggregati, insieme ai grafici, sono disponibili in `2-Do
 - **Sampling criticality-aware**: dato che il sampling attuale opera per trace e non per singolo span, un possibile sviluppo è un sampler che dia priorità esplicita agli span del task critico indipendentemente dall'esito del campionamento sulla trace.
 - **Processor con priorità differenziata**: un `SpanProcessor` che isoli il costo per il task critico (come fa oggi `Batch`) riducendo al contempo la latenza di consegna della sua telemetria (vantaggio oggi di `Simple`) combinerebbe i due comportamenti osservati come alternativi.
 
-## Licenza
-
-Il fork di `rt-app` in [`rt-app/`](rt-app) è distribuito sotto **GNU GPL v2** (ereditata dal progetto upstream [scheduler-tools/rt-app](https://github.com/scheduler-tools/rt-app)), vedi [`rt-app/COPYING`](rt-app/COPYING).
